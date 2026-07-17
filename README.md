@@ -18,13 +18,21 @@ git config --global user.mail "r...@...fr"
 ```bash
 git log : connaitre tout l'historique de l'application
 git show : connaitre en détail tout l'historique
+git status : voir l'état du projet
 
 ```
 
-## Rédiger un commit
+## Rédiger un commit (bonne pratique)
 ```bash
 Titre du commit
-
 Description de notre commit avec des informations sur l'évolution du projet
 
 ```
+
+## Les Branches
+```bash
+git branch : voir les branches qui existent dans l'appli
+git checkout -b NOM_BRANCHE : créer une branche
+ : ajouter 
+```
+Pour les bonnes pratiques, on va intégrer la notion de revue de code. Pour cela , on va créer une branche, faire des modfications, les envoyer sur le dépot distant, puis créer une pull request pour demander une revue de code.
